@@ -1,0 +1,6 @@
+input_string = input("Введите N и M: ")
+nums = input_string.split(" ")
+n = int(nums[0])
+m = int(nums[1])
+result = m//(n+1)
+print(result)
